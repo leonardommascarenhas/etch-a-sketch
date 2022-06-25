@@ -10,14 +10,12 @@
 </head>
 
 <body>
-
     <div class="container">
         <header class="main-title">RETRO SKETCH</header>
         <div class="content">
             <div class="side-menu">
-                <input type="color" class="color" value="#000000">
-                <button>black</button>
-                <button>white</button>
+                <button onclick="escolhaCor('black')">Black</button>
+                <button onclick="escolhaCor('white')" class="eraser">eraser</button>
                 <button class="reset">reset</button>
             </div>
             <div class="canva"></div>
