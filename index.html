@@ -11,13 +11,13 @@
 
 <body>
     <div class="container">
-        <header class="main-title">RETRO SKETCH</header>
+        <div class="side-menu">
+            <button onclick="escolhaCor('black')">Black</button>
+            <button onclick="escolhaCor('white')" class="eraser">Eraser</button>
+            <button class="reset">Reset</button>
+        </div>
         <div class="content">
-            <div class="side-menu">
-                <button onclick="escolhaCor('black')">Black</button>
-                <button onclick="escolhaCor('white')" class="eraser">eraser</button>
-                <button class="reset">reset</button>
-            </div>
+            <header class="header">RETRO SKETCH</header>
             <div class="canva"></div>
         </div>
         <script src="./script.js"></script>

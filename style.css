@@ -1,8 +1,14 @@
+body {
+  background-color: rgb(207, 207, 207);
+}
+
 .canva {
   height: 500px;
   width: 500px;
   display: grid;
   border: 1px solid black;
+  background-color: white;
+  border-radius: 2px;
 }
 
 .pixel {
@@ -11,12 +17,15 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-width: 700px;
 }
 
 .content {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .side-menu {
@@ -25,12 +34,23 @@
   justify-content: center;
   align-items: center;
   width: 180px;
-  background-color: #f2f2f2;
+  background-color: inherit;
+}
+
+.header {
+  height: 10vh;
+  margin: 5vh;
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #000000;
 }
 
 button {
   background-color: #f2f2f2;
-  border: 1 px solid black;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 8px;
   padding: 10px;
   font-size: 20px;
   margin-bottom: 18px;
